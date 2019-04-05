@@ -1,4 +1,4 @@
-FROM ubuntu:16.04 
+FROM pranalighate/png
 MAINTAINER "info@gamutgurus.com"
 RUN apt-get update
 RUN apt-get install -y nginx
