@@ -6,7 +6,7 @@ knife cookbook upload gamutkart
 
 knife role from file roles/web.json
 
-knife node run_list set nodejtomcat1 role[web]
+knife node run_list set node tomcat1 role[web]
 
 sshpass -p 'gamut' ssh gamut@172.17.0.3 "echo 'gamut' | sudo -S chef-client"
 
